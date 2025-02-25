@@ -1,0 +1,9 @@
+fastapi==0.95.0
+uvicorn==0.21.1
+mlflow==2.6.0
+pydantic==1.10.5
+numpy==1.23.5
+scikit-learn==1.4.2
+tensorflow==2.15.0
+# If your model is Keras-based, you might need tensorflow
+# If scikit-learn based, you might need scikit-learn, etc.

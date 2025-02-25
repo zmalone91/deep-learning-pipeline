@@ -1,0 +1,41 @@
+data:
+  test_size: 0.2
+  random_seed: 42
+
+model:
+  epochs: 10
+  batch_size: 8
+  verbose: 0
+
+hyperparams:
+  # Example: shared param list for neurons
+  model__num_neurons: [4, 8, 16]
+  # For learning_rate, we keep a default list
+  model__learning_rate: [0.1, 0.01, 0.001]
+
+search:
+  grid_search:
+    enabled: false
+    param_grid:
+      model__num_neurons: [4, 8, 16]  # or ${hyperparams.model__num_neurons}
+      model__learning_rate: [0.1, 0.01, 0.001]
+    cv: 3
+    scoring: accuracy
+
+  random_search:
+    enabled: false  # if you want to skip random search
+    param_dist:
+      model__num_neurons: [4, 8, 16]
+      model__learning_rate: [0.1, 0.01, 0.001]
+    n_iter: 5
+    cv: 3
+    scoring: accuracy
+
+  bayes_search:
+    enabled: true
+    space:
+      model__num_neurons: [4, 8, 16]
+      model__learning_rate: [0.001, 0.1]
+    n_iter: 5
+    cv: 3
+    scoring: accuracy

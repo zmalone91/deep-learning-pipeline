@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  mlflow-server:
+    image: ghcr.io/mlflow/mlflow:latest
+    container_name: mlflow-server
+    command: >
+      mlflow server
+        --host 0.0.0.0
+        --port 5000
+        --backend-store-uri sqlite:///mlflow.db
+        --default-artifact-root /mlflow/mlruns
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+      # The above volume ensures artifacts are stored on your host in the ./mlruns folder
+
+  iris-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: iris_pipeline:latest
+    container_name: iris_pipeline
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow-server:5000
+    depends_on:
+      - mlflow-server
+

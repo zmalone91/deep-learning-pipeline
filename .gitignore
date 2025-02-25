@@ -1,0 +1,19 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info
+.eggs
+*.egg
+*.env
+.venv
+env/
+venv/
+tf_env/
+build/
+dist/
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db

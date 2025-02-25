@@ -1,0 +1,40 @@
+[
+  {
+    "date_time": "02/24/25 05:32 PM ",
+    "experiment_id": "270463898057072864",
+    "run_id": "7fe65f1e990e4d908f041a343f214aa5",
+    "artifact_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_refactored/mlruns/270463898057072864/7fe65f1e990e4d908f041a343f214aa5/artifacts",
+    "keras_model_uri": "file:///app/mlruns/270463898057072864/7fe65f1e990e4d908f041a343f214aa5/artifacts/my_keras_model"
+  },
+  {
+    "date_time": "02/23/25 08:04 PM ",
+    "experiment_id": "780484089448148816",
+    "run_id": "d469022eb1d34700aba944ba2cb1c92a",
+    "artifact_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_pipeline/mlruns/780484089448148816/d469022eb1d34700aba944ba2cb1c92a/artifacts",
+    "keras_model_uri": "file:///app/mlruns/780484089448148816/d469022eb1d34700aba944ba2cb1c92a/artifacts/my_keras_model"
+  },
+  {
+    "date_time": "02/23/25 07:44 PM ",
+    "run_id": "6ad164c6382940e986f089aec41f3921",
+    "artifact_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_pipeline/mlruns/780484089448148816/6ad164c6382940e986f089aec41f3921/artifacts",
+    "keras_model_uri": "file:///app/mlruns/6ad164c6382940e986f089aec41f3921/artifacts/my_keras_model"
+  },
+  {
+    "date_time": "02/23/25 07:43 PM ",
+    "run_id": "8cc077c38cf341d6b2ec024abc173a24",
+    "artifact_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_pipeline/mlruns/780484089448148816/8cc077c38cf341d6b2ec024abc173a24/artifacts",
+    "keras_model_uri": "file:///app/mlruns/8cc077c38cf341d6b2ec024abc173a24/artifacts/my_keras_model"
+  },
+  {
+    "date_time": "02/23/25 06:53 PM ",
+    "run_id": "e6dd4c0b796d442d90ca839f99de4533",
+    "artifact_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_pipeline/mlruns/780484089448148816/e6dd4c0b796d442d90ca839f99de4533/artifacts",
+    "keras_model_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_pipeline/mlruns/780484089448148816/e6dd4c0b796d442d90ca839f99de4533/artifacts/my_keras_model"
+  },
+  {
+    "date_time": "02/23/25 06:51 PM ",
+    "run_id": "a4e32c0807ba4161a4c70072a73fa807",
+    "artifact_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_pipeline/mlruns/780484089448148816/a4e32c0807ba4161a4c70072a73fa807/artifacts",
+    "keras_model_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_pipeline/mlruns/780484089448148816/a4e32c0807ba4161a4c70072a73fa807/artifacts/my_keras_model"
+  }
+]

@@ -1,0 +1,21 @@
+FROM python:3.10-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    build-essential
+
+WORKDIR /app
+
+COPY requirements_inference.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy code
+COPY inference_app.py /app/inference_app.py
+COPY run_info.json /app/run_info.json
+
+# If you want to package mlruns in the image:
+COPY mlruns /app/mlruns
+
+EXPOSE 8000
+
+CMD ["uvicorn", "inference_app:app", "--host", "0.0.0.0", "--port", "8000"]
