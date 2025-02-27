@@ -8,16 +8,16 @@ from tensorflow.keras.models import load_model
 MODEL_PATH = "models/best_keras_model.keras"
 model = load_model(MODEL_PATH)
 
-st.title("Local Keras Model Inference App (Iris Example)")
+st.title("Locally Hosted Keras Model Inference App (Iris Dataset)")
 
 st.write("""
-This Streamlit app supports:
+This Streamlit app is a quick protoype/checkpoint that supports:
 1. **Single** prediction (manual feature entry).
 2. **Batch** predictions (CSV upload).
 """)
 
 # --- SINGLE PREDICTION SECTION ---
-st.header("Single Prediction")
+st.header("Single Classification Prediction")
 
 col1, col2 = st.columns(2)
 
@@ -49,7 +49,7 @@ if st.button("Predict Single Example"):
     st.write("Predicted Class Name:", class_names[predicted_class[0]])
 
 # --- BATCH PREDICTION SECTION ---
-st.header("Batch Prediction via CSV Upload")
+st.header("Batch Classification Prediction via CSV Upload")
 
 st.write("Upload a CSV with columns: sepal_length, sepal_width, petal_length, petal_width")
 

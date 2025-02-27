@@ -12,7 +12,7 @@ def main():
                         help="Path to the saved Keras model.")
     parser.add_argument("--input_csv", type=str, required=True,
                         help="Path to the CSV file containing new data.")
-    parser.add_argument("--output_csv", type=str, default="predictions.csv",
+    parser.add_argument("--output_csv", type=str, default="data/predictions.csv",
                         help="Path to save the output predictions.")
     args = parser.parse_args()
 

@@ -1,5 +1,12 @@
 [
   {
+    "date_time": "02/27/25 01:13 AM ",
+    "experiment_id": "891760396272718060",
+    "run_id": "9d1074d61a8f45c6bffe42a9a4e1b36f",
+    "artifact_uri": "file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_refactored/mlruns/891760396272718060/9d1074d61a8f45c6bffe42a9a4e1b36f/artifacts",
+    "keras_model_uri": "file:///app/mlruns/891760396272718060/9d1074d61a8f45c6bffe42a9a4e1b36f/artifacts/my_keras_model"
+  },
+  {
     "date_time": "02/24/25 05:32 PM ",
     "experiment_id": "270463898057072864",
     "run_id": "7fe65f1e990e4d908f041a343f214aa5",

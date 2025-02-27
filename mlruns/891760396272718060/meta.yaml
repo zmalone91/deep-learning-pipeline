@@ -1,0 +1,6 @@
+artifact_location: file:///Users/zackmalone/Code/PortfolioProjects/TensorFlow/mlops_refactored/mlruns/891760396272718060
+creation_time: 1740644014172
+experiment_id: '891760396272718060'
+last_update_time: 1740644014172
+lifecycle_stage: active
+name: Iris_Classification_Experiment
