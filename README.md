@@ -19,6 +19,13 @@ This project demonstrates a complete **machine learning** pipeline—from **trai
 This approach ensures **reproducibility**, **version control**, and **scalable** deployment possibilities.
 
 ---
+<div align="center">
+  
+| <img src="https://github.com/user-attachments/assets/b830d7b5-f907-4ffc-9513-7c56e761b556" width="300" /> | <img src="https://github.com/user-attachments/assets/979a3257-5267-4934-8883-1932961f2574" width="300" /> |
+| --- | --- |
+| *Functional Streamlit Demo App* | *Containerized Best Scroing Keras Model* |
+
+</div>
 
 ## 1. Virtual Environment Setup
 
